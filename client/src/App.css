@@ -1,7 +1,7 @@
 .App {
   	text-align: center;
 	background: #1A1B21;
-	border-radius: 10px 10px 0px 0px;
+	border-radius: 10px 10px 10px 10px;
 	width: 317px;
 	margin: 10% 40%;
 	font-family: 'Inter';
@@ -78,7 +78,7 @@
 .main {
 	color: #FFFFFF;
 	text-align: left;
-	margin: 33px 35px 24px;
+	margin: 33px 35px 34px;
 }
 
 .about-title {
@@ -111,4 +111,19 @@
 	line-height: 150%;
 	color: #DCDCDC;
 	margin: 0;
+}
+
+.footer {
+	background-color: #161619;
+	border-radius: 0px 0px 10px 10px;
+	height: 64px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 73px;
+}
+
+.footer > img {
+	width: 25px;
+	height: 25px;
 }
