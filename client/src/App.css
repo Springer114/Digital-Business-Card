@@ -1,3 +1,37 @@
 .App {
-  text-align: center;
+  	text-align: center;
+	background: #1A1B21;
+	border-radius: 10px 10px 0px 0px;
+	width: 317px;
+	margin: 10% 40%;
+	font-family: 'Inter';
+}
+
+.header > img {
+	width: 317px;
+	line-height: normal;
+}
+
+.name {
+	color: #FFFFFF;
+	font-size: 25px;
+	margin: 21px 0 6.19px 0;
+	font-weight: 700;
+	line-height: 30px;
+}
+
+.occupation {
+	color: #F3BF99;
+	font-size: 12.8px;
+	margin: 0 0 8.81px 0;
+	font-weight: 400;
+	line-height: 15px;
+}
+
+.email {
+	color: #F5F5F5;
+	font-size: 10.24px;
+	margin: 0;
+	font-weight: 400;
+	line-height: 150%;
 }
